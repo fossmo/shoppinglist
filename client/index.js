@@ -5,7 +5,7 @@ import { Provider, connect } from 'react-redux';
 class App extends React.Component {
   render () {
     return (
-    <div>Sykt! Dette funker jo! Mer endring</div>
+    <div>kult</div>
     );
   }
 }

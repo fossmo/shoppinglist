@@ -7,14 +7,14 @@ module.exports = {
    headers: { "Access-Control-Allow-Origin": "http://localhost:3009", "Access-Control-Allow-Credentials":"true" }
   },
   entry: [
-    'webpack-dev-server/client?http://localhost:8080/server/public/wp_bundle.js',
+    'webpack-dev-server/client?http://localhost:8080/wp_bundle.js',
     'webpack/hot/only-dev-server',
     './client/index.js'
   ],
   output: {
     path: __dirname + "/server/public",
     filename: '/wp_bundle.js',
-    publicPath: 'http://localhost:8080/server/public',
+    publicPath: 'http://localhost:8080/',
     crossOriginLoading: 'anonymous'
   },
   plugins: [
